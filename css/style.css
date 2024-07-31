@@ -1,0 +1,291 @@
+.banner {
+  width: 100%;
+  height: 700px;
+  background-color: #b7dbd0;
+  display: inline-block;
+  position: relative;
+}
+.banner .banner-image {
+  width: 50%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.banner img {
+  width: 100%;
+  height: 800px;
+}
+.banner .banner-text {
+  width: 80%;
+  margin: 200px 100px;
+}
+.banner .banner-text button {
+  width: 130px;
+}
+
+nav {
+  margin-top: 20px;
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  text-decoration: none;
+  margin: 0 20px;
+}
+
+.blog-banner-image {
+  background-image: url(../images/about.1.webp);
+  height: 100vh;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+  opacity: 0.9;
+  position: relative;
+}
+.blog-banner-image .opacity {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  opacity: 0;
+  background: #052c43;
+  z-index: -1;
+}
+
+.slider-text {
+  height: 100vh;
+  min-height: 100%;
+}
+
+.our-blog {
+  font-size: 70px;
+}
+
+.contact-wrapper {
+  width: 100%;
+  height: 400px;
+}
+
+.description .gx-2 {
+  --bs-gutter-x: 0.5rem;
+}
+.description .box-1 {
+  height: 300px;
+}
+.description .box-1 .icon {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: rgb(172, 109, 109);
+}
+.description .box-1 .icon .fa-regular .fa-handshake {
+  font-size: 100px;
+  color: red;
+}
+.description .box-2 .icon2 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #8bbd8e;
+}
+.description .box-3 .icon3 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #d1b54a;
+}
+.description .box-3 .icon3 img {
+  padding-left: 0;
+}
+.description .box-4 .icon4 {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  padding: 10px 0;
+  background-color: #d29a61;
+}
+.description .box-4 .icon4 img {
+  padding-left: 0;
+}
+
+.belief {
+  width: 100%;
+  height: 700px;
+  background-image: url(../images/girl2.webp);
+  background-size: cover;
+}
+.belief .belief-text {
+  margin-top: 150px;
+}
+.belief img {
+  width: 80px;
+  height: 80px;
+}
+
+.about-banner-image {
+  background-image: url(../images/about.1.webp);
+  height: 100vh;
+  min-height: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-attachment: fixed;
+}
+
+.about-image {
+  width: 90%;
+  height: 700px;
+}
+.about-image img {
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding-left: 0;
+}
+
+.belief-text button {
+  background-color: #cf7500;
+}
+
+.furniture img {
+  width: 100%;
+  height: 350px;
+}
+
+.furniture2 img {
+  width: 100%;
+  height: 350px;
+}
+
+.row > * {
+  padding-right: 0;
+  padding-left: 0;
+}
+.row > * img {
+  padding-right: 0;
+}
+
+li.active a {
+  color: red;
+}
+
+a:hover {
+  color: red;
+}
+
+.technical-statistics {
+  width: 100%;
+  height: 300px;
+  background-color: #b7dbd0;
+}
+
+.testimonial {
+  width: 100%;
+  height: 250px;
+}
+
+.marketing-manager {
+  width: 100%;
+  height: 250px;
+  background-color: #fff;
+}
+
+img {
+  padding-left: 10px;
+  width: 70px;
+}
+
+span img {
+  padding-left: 0;
+  width: 20%;
+  height: 20%;
+  border-radius: 50px;
+}
+
+.span-text {
+  color: #cf7500;
+}
+
+.mid-box {
+  background-color: #cf7500;
+}
+
+span .calculator-image {
+  width: 100px;
+  height: 120px;
+  border-radius: 50%;
+  background-color: #fff;
+}
+
+.small-circle {
+  width: 100px;
+  height: 30px;
+  margin-left: 150px;
+  position: relative;
+}
+
+.work-images small {
+  position: absolute;
+  top: 2px;
+  right: 4px;
+  content: "";
+  width: 20px;
+  height: 20px;
+  background: #cf7500;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.work-images2 .blue-circle {
+  margin: 20px 0;
+}
+
+.blog-row img {
+  width: 50%;
+  height: 300px;
+}
+.blog-row .cottage-description {
+  width: 50%;
+  height: 350px;
+}
+.blog-row .cottage-description .img2 {
+  width: 20px;
+  height: 10px;
+}
+.blog-row .cottage-description span img {
+  width: 20px;
+  height: 20px;
+}
+
+footer {
+  width: 100%;
+  height: 400px;
+  background-color: #b7dbd0;
+}
+footer div img {
+  width: 35px;
+  height: 35px;
+}
+footer div .footer-image {
+  width: 50px;
+  height: 50px;
+}
+footer .footer-icon {
+  width: 25px;
+  height: 18px;
+}
+
+.about-footer {
+  margin-top: 150px;
+}/*# sourceMappingURL=style.css.map */

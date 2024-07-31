@@ -1,0 +1,57 @@
+.description{
+    .gx-2 {
+        --bs-gutter-x: 0.5rem;
+    }
+    .box-1{
+        height: 300px;
+        .icon{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            text-align:center;
+            padding:10px 0;
+            background-color: rgb(172, 109, 109);
+            .fa-regular .fa-handshake{
+                font-size: 100px;
+                color: red;
+            }
+        }
+    }
+    .box-2{
+        .icon2{
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            text-align:center;
+            padding:10px 0;
+            background-color: $green;
+        }
+    }
+    .box-3{
+    .icon3{
+        img{
+            padding-left: 0;
+        }
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+        text-align:center;
+        padding:10px 0;
+        background-color: $brown;
+    }
+    }
+    .box-4{
+        .icon4{
+            img{
+                padding-left: 0;
+            }
+            width: 80px;
+            height: 80px;
+            border-radius: 50%;
+            text-align:center;
+            padding:10px 0;
+            background-color: $darkbrown;
+        
+        }
+        }
+}

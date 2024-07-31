@@ -1,0 +1,13 @@
+.row>*{
+    padding-right: 0;
+    padding-left: 0;
+    img{
+        padding-right: 0;
+    }
+}
+li.active a {
+    color: red;
+}
+a:hover{
+    color: red;
+}
